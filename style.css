@@ -1,0 +1,228 @@
+body {
+  padding: 5px;
+  background-image: url(public/grafiti.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  border-image-width: 100%;
+
+  background-color: #f4f4f4;
+}
+main{
+  
+  padding: 5px;
+}
+form {
+  
+  padding: 5px;
+  width: 100%;
+}
+
+.formulario {
+  
+  padding: 5px;
+  font-family: tilt neon;
+  border: solid yellow 3px;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  opacity: 75%;
+}
+
+h1 {
+  font-family: tilt neon;
+  border: solid yellow 3px;
+  border-radius: 30px;
+  background-color: black;
+  font-size: 70px;
+  color: #d8db1b;
+  text-align: center;
+  text-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600 ;
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+.datos-per {
+  display: inline-block;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.datos-act{
+  padding: 5px;
+  text-align: center;
+}
+fieldset {
+  padding: 5px;
+  font-family: tilt neon;
+  border: none;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+legend {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.input{
+  height:30px ;
+  width: 40%;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.titulo {
+  margin-bottom: 5px;
+}
+
+
+
+.punteado {
+  border-top: 1px dotted #000000;
+  margin-bottom: 20px;
+}
+button {
+  text-align: center;
+  font-family: tilt neon;
+  background-color: #c0c0c0;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-top: solid white 1px;
+  border-left: solid white 1px;
+}
+.botones {
+  text-align: center;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+ 
+
+.botones button {
+  padding: 20px;
+  text-align: center;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.botones button.afiliacion {
+  text-align: center;
+  background-color: #c6c921;
+  color: #fff;
+}
+
+.botones button.restablecer {
+  background-color: #000000;
+  color: #fff;
+}
+.afiliacion:hover{
+  background: #ecfd00;
+  box-shadow: 0 0 10px #43a026, 0 0 40px #3cff00fb, 0 0 80px #66ff00;
+  transition-delay: 1s;
+}
+.restablecer:hover {
+  background: #ecfd00;
+  box-shadow: 0 0 10px #aa2525, 0 0 40px #ff0000fb, 0 0 80px #ff0000;
+  transition-delay: 1s;
+}
+
+.campo {
+  color: #666;
+  text-align: center;
+}
+
+.main {
+  background-color: #333;
+  color: #fff;
+}
+
+
+#lbl-opcion {
+  
+  height: 30px;
+  width: 60%;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+textarea {
+  
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 10px;
+  resize: vertical;
+}
+#lbl-nombre{
+  height:30px ;
+  width: 100%;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+#lbl-apellido{
+  height:30px ;
+  width: 100%;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+#lbl-documento{
+  height:30px ;
+  width: 100%;
+  border: solid 2px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.afiliacion{
+  text-align: center;
+ 
+  justify-content: flex-start;
+  
+  
+}
+.restablecer{
+  text-align: center;
+  
+  margin-left: 5px;
+}
+main:hover{
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+#lbl-nombre:focus {
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+#lbl-apellido:focus {
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+#lbl-documento:focus {
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+#lbl-descripcion:focus {
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+#lbl-telefono:focus {
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+#lbl-email:focus {
+  box-shadow: 0 0 10px #ffe600, 0 0 40px #ffe600, 0 0 80px #ffe600;
+}
+.dc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dp{
+  width: 60%;
+}
